@@ -21,9 +21,8 @@ There will be 3 topics Our Focus, Lurk List, Topics. Under that, the footer will
 
 Mood Board
 
-[<img src="moodboard_netcrawlapng.png">](https://github.com/certseeker/net_crawla2/blob/main/README.md/moodboard_netcrawlapng.png)
 
-
+![moodboard_netcrawlapng](https://github.com/certseeker/net_crawla2/assets/133781991/87e2fd55-5fdc-4fd9-b8c2-9e3605cd802e)
 
 
 
