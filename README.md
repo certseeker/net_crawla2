@@ -1,6 +1,4 @@
-# React + Vite
-
-<h1>netCrawla<h1>
+netCrawla
 
 What in netCrawla? 
 
@@ -23,9 +21,7 @@ There will be 3 topics Our Focus, Lurk List, Topics. Under that, the footer will
 
 Mood Board
 
-
-
-![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/Users/tenesabrown/Desktop/moodboard_netcrwala/moodboard_netcrawlapng.png?version%253D1691230381921)
+[<img src="moodboard_netcrawlapng.png">](https://github.com/certseeker/net_crawla2/blob/main/README.md/moodboard_netcrawlapng.png)
 
 
 
