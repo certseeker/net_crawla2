@@ -12,15 +12,7 @@ const [input, setInput] = useState(" ");
 
 
 const fetchData = (value) => {
-  fetch(`https://api.shodan.io/shodan/host/search?key=${apiKey}&query=${value}` , {
-    headers: {    
-    "Access-Control-Allow-Origin": import.meta.env.VITE_IP_ADDRESS,
-    "Access-Control-Allow-Headers": "Content-Type",
-    "Access-Control-Allow-Methods": "GET"
-  }
-})
-  .then((response) => response.json())
-  .then((json) => {
+  fetch(`https://api.shodan.io/shodan/host/search?key=${apiKey}&query=${value}`).then((response) => response.json()).then((json) => {
     props.setSearchResults(json);
   });
 };

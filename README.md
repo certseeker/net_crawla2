@@ -19,8 +19,10 @@ A Vertical gradient of stylized line on the right of the page with navigation ba
 Navigation bar will have hover over features that would have an underlay of a tiger print one the item
 There will be 3 topics Our Focus, Lurk List, Topics. Under that, the footer will be a link to the page Dedicated to Privacy. 
 
-Mood Board
+Theme of the Site: 
+A panther of the night | A panther of the net
 
+Mood Board
 
 ![moodboard_netcrawlapng](https://github.com/certseeker/net_crawla2/assets/133781991/87e2fd55-5fdc-4fd9-b8c2-9e3605cd802e)
 

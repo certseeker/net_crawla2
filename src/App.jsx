@@ -8,6 +8,7 @@ import LurkList from "./Pages/LurkList";
 import SearchResults from "./Pages/SearchResults";
 import MainPage from './Pages/MainPage';
 
+
 export default function App() {
 
   // const [searchResults, setSearchResults] = useState([]);

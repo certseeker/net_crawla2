@@ -1,12 +1,15 @@
 .input-wrapper{
+  position: relative;
+  top: 10px;
   background-color: azure;
   width: 100%;
   border-radius: 10px;
   height: 2.5rem;
   padding: 0 15px;
   box-shadow: 0px 0px 8px #c46d6d;
-  display: flex;
+  /* display: flex; */
   align-items: center;
+  /* z-index: 4; */
 }
 
 #type-to-search {
@@ -20,7 +23,6 @@
 
 #submit {
   height: 100%;
-  
 
 }
 
