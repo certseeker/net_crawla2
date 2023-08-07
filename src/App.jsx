@@ -1,12 +1,13 @@
 // import { useState } from 'react'
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import './App.css'
 // import SearchBar from './Component/SearchBar';
 import OurFocus from "./Pages/OurFocus";
 import LurkList from "./Pages/LurkList";
 import SearchResults from "./Pages/SearchResults";
 import MainPage from './Pages/MainPage';
+import NavBar from './Component/NavBar';
 
 
 export default function App() {
@@ -17,7 +18,7 @@ export default function App() {
     <>
       <div className='App'>
         <Routes>
-        <Route path="/" elements={<OurFocus />} />
+        <Route path="/mainpage" elements={<MainPage />} />
         <Route path="/ourfocus" elements={<OurFocus />} />
         <Route path="/lurklist"  elements={<LurkList />} />
         <Route path="/searchresults" elements={<SearchResults />} />

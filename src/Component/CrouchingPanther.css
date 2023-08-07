@@ -17,6 +17,11 @@
  #panth {
   width: 1600px;
   margin-left: -625px;
+  z-index: 2;
+  
+ }
+
+
 
   /* position: relative; */
   /* top: 0px;  */
@@ -29,6 +34,4 @@
   /* min-width: 200px;
   flex-direction: row;
   align-items: center;
-  z-index: 2; */
   
-}

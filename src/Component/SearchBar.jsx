@@ -2,8 +2,9 @@ import React from 'react';
 import { FaSearch } from "react-icons/fa";
 import "./SearchBar.css";
 import { useState } from 'react';
+import SearchResults from '../Pages/SearchResults';
 
-export default function SearchBar(props) {
+export default function SearchBar({ setSearchResults }) {
 
 const apiKey = import.meta.env.VITE_APP_API_KEY
 
@@ -14,7 +15,10 @@ const [input, setInput] = useState(" ");
 const fetchData = (value) => {
   fetch(`https://api.shodan.io/shodan/host/search?key=${apiKey}&query=${value}`).then((response) => response.json()).then((json) => {
     props.setSearchResults(json);
+    setSearchResults(SearchResults);
   });
+
+
 };
 
 const handleChange = (event) => {
@@ -29,12 +33,12 @@ const handleSubmit = (event) => {
   return (
     <div className='input-wrapper'>
     <FaSearch id="search-icon"/> 
-    <form onSubmit={handleSubmit}>
-    <input id="type-to-search" placeholder='Type to search...' value={input} onChange={handleChange}/>
-    <div id='submit-box'>
-    <input id='submit' type='submit'></input>
-    </div>
-    </form>
+      <form onSubmit={handleSubmit}>
+      <input id="type-to-search" placeholder='Type to search...' value={input} onChange={handleChange}/>
+        <div id='submit-box'>
+          <input id='submit' type='submit'></input>
+        </div>
+      </form>
     {/* see notes */}
     </div>
   )
