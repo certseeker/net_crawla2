@@ -1,0 +1,12 @@
+img {
+
+  /* position: fixed; */
+  z-index: -1;
+  width: 2000px;;
+}
+
+.focus-page-wrapper{
+  background-image: ('Mountains_focus_netCrawler.png');
+  /* overflow: hidden; */
+  background-color: rgb(3, 3, 108);
+}

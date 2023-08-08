@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import { BrowserRouter } from 'react-router-dom';
 import "./MainPage.css"
 import { useState } from 'react';
 import CrouchingPanther from '../Component/CrouchingPanther';
@@ -16,8 +14,7 @@ export default function MainPage() {
   const [searchResults, setSearchResults] = useState([]);
 
   return (
-    <div>
-      <div className='main-page'>
+    <div className='main-page'>
       <div className='net-crawler'>netCrawler</div>
       <div id="side-container">
           <NavBar />
@@ -29,7 +26,6 @@ export default function MainPage() {
             <CrouchingPanther />
           </div>
         </div>
-      </div>
     </div>
   )
 }

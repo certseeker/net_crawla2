@@ -18,7 +18,10 @@
   width: 1600px;
   margin-left: -625px;
   z-index: 2;
-  
+ }
+
+ img {
+  border: "0";
  }
 
 

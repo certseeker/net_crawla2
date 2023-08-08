@@ -1,7 +1,10 @@
-import React from 'react'
+import NetCrawlerNav from '../Component/NetCrawlerNav';
 
-export const Topics = () => {
+export default function Topics() {
   return (
-    <div>Topics</div>
+    <div>
+      <NetCrawlerNav />
+      <h2>Topics</h2>
+    </div>
   )
 }

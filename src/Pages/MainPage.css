@@ -1,7 +1,7 @@
 .main-page {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background-color: rgb(15, 75, 107);
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   height: 1400px;
   width: 100vw;
   /* max-width: 1140px;
@@ -30,8 +30,10 @@
 .net-crawler{
   position: relative;
   top: 360px;
-  left: 40%;
-  font-size: 60px;
+  left: 35%;
+  right: 40%;
+  min-block-size: 5vmin;
+  font-size: 80px;
   
 
 }

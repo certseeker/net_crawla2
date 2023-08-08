@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaSearch } from "react-icons/fa";
 import "./SearchBar.css";
 import { useState } from 'react';
@@ -10,7 +10,22 @@ const apiKey = import.meta.env.VITE_APP_API_KEY
 
 const [input, setInput] = useState(" ");
 
+// const url = `https://api.shodan.io/shodan/host/search?key=${apiKey}&query=${value}`;
 
+// const fetchData = async () => {
+//   try {
+//     const response = await fetch(url)
+//     const data = await response.json();
+//     setInput(data)
+//     console.log(data)
+//   } catch (e) {
+//       console.error(e)
+//   }
+//   }
+
+// useEffect(() => {
+//   fetchData();
+// }, []);
 
 const fetchData = (value) => {
   fetch(`https://api.shodan.io/shodan/host/search?key=${apiKey}&query=${value}`).then((response) => response.json()).then((json) => {
